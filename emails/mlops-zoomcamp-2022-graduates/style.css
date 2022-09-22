@@ -1,0 +1,22 @@
+.body {
+    background: #f2f2f2;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: sans-serif;
+  }
+  
+  .message {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+  }
+  
+  footer {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 10px;
+  }

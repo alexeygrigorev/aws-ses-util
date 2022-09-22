@@ -1,0 +1,4 @@
+aws:
+  region: eu-west-1
+email:
+  charset: UTF-8
