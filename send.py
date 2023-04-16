@@ -79,6 +79,9 @@ def main(template_folder: Path, emails_file: Path):
     for record in records:
         receiver = record['email']
 
+        if receiver == 'never.give.up@gmail.com':
+            continue
+
         content_md = markdown_template.render(**record)
         content_html = markdown.markdown(content_md)
 
